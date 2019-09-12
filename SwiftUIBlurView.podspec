@@ -6,7 +6,9 @@ Pod::Spec.new do |s|
   s.summary          = 'SwiftUIBlurView lets you use UIBlurEffect in SwiftUI.'
 
   s.description      = <<-DESC
-  SwiftUIBlurView lets you use UIBlurEffect in SwiftUI.
+  SwiftUIBlurView lets you use UIBlurEffect in SwiftUI. This
+  makes it easy to apply other blur effects than the basic
+  ones that are defined in SwiftUI.
                        DESC
 
   s.homepage         = 'https://github.com/danielsaidi/SwiftUIBlurView'
