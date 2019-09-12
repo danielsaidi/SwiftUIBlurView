@@ -16,7 +16,7 @@ import UIKit
  */
 public struct BlurView: UIViewRepresentable {
     
-    public init(style: UIBlurEffect.Style) {
+    public init(_ style: UIBlurEffect.Style) {
         self.style = style
     }
     

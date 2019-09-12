@@ -17,13 +17,11 @@ struct BlurCell: View {
             HStack {
                 ZStack {
                     Image("Image").resizable()
-                    BlurView(style: style)
+                    BlurView(style)
                     Image("Image")
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(5)
-                        
-                        .padding(80)
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(5).padding(80)
                 }
             }
             .frame(height: 300)
