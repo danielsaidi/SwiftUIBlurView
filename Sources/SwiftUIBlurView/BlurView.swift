@@ -14,20 +14,19 @@ import UIKit
  `UIBlurEffect.Style` to it. You can then place it above any
  SwiftUI views that you want to blur.
  */
-
-struct BlurView: UIViewRepresentable {
+public struct BlurView: UIViewRepresentable {
     
-    init(style: UIBlurEffect.Style) {
+    public init(style: UIBlurEffect.Style) {
         self.style = style
     }
     
     private let style: UIBlurEffect.Style
     
-    func makeUIView(context: UIViewRepresentableContext<BlurView>) -> UIView {
+    public func makeUIView(context: UIViewRepresentableContext<BlurView>) -> UIView {
         createView()
     }
     
-    func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<BlurView>) {}
+    public func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<BlurView>) {}
 }
 
 
