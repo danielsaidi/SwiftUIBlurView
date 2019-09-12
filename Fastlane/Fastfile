@@ -1,0 +1,24 @@
+fastlane_version "2.129.0"
+
+default_platform :ios
+
+platform :ios do
+
+  desc "Create a new version"
+  lane :version do |options|
+    ensure_git_status_clean
+    ensure_git_branch(branch: 'master')
+    version = version_bump_podspec(path: "SwiftUIBlurView.podspec", version_number: options[:name])
+    increment_version_number(version_number: version)
+
+    git_commit(
+      path: ["SwiftUIBlurView.podspec","SwiftUIBlurViewDemo/Info.plist"],
+      message: "Bump to #{version}"
+    )
+
+    add_git_tag(tag: version)
+    push_git_tags()
+    push_to_git_remote()
+    #pod_push()
+  end
+end
