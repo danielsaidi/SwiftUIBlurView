@@ -17,9 +17,9 @@
 
 ## <a name="about"></a>About SwiftUIBlurView
 
-SwiftUIBlurView lets you use `UIBlurEffect` in SwiftUI.
+SwiftUIBlurView lets you use `UIBlurEffect` in SwiftUI. This gives you access to all system blur effects, like `.regular`, `.prominent`, `.systemMaterial` and many more.
 
-To blur any SwiftUI view, place a `BlurView` above it, like this:
+To blur any SwiftUI view, just place a `BlurView` above it:
 
 ```swift
 ZStack {
@@ -35,9 +35,7 @@ The result looks like this:
     <img src ="Resources/Demo.jpg" height=300 />
 </p>
 
-Since `BlurView` wraps a `UIView` instance, you currently can't add any `SwiftUI`
-subviews to the blur view. For now, it only serves as an overlay to any view you
-want to blur.
+Since `BlurView` creates and embeds a `UIView` to which the blur effect is added, you currently can't add SwiftUI subviews to it.
 
 
 ## Installation
@@ -66,14 +64,14 @@ github "danielsaidi/SwiftUIBlurView"
 
 ## Demo App
 
-This project contains a demo app that lists all available system blur styles and
-how they look when applied in dark and light mode.
+This project contains a demo app that shows all available blur styles in dark and light mode.
+
+To run the demo app, just open and run the `SwiftUIBlurView` project. 
 
 
 ## Contact me
 
-I hope you like this library. Feel free to reach out if you have questions or if
-you want to contribute in any way:
+I hope you like this library. Feel free to reach out if you have questions or if you want to contribute in any way:
 
 * E-mail: [daniel.saidi@gmail.com](mailto:daniel.saidi@gmail.com)
 * Twitter: [@danielsaidi](http://www.twitter.com/danielsaidi)
