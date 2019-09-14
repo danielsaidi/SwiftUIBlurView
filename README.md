@@ -35,7 +35,7 @@ The result looks like this:
     <img src ="Resources/Demo.jpg" height=300 />
 </p>
 
-Since `BlurView` creates and embeds a `UIView` to which the blur effect is added, you currently can't add SwiftUI subviews to it.
+The demo application embedded in this project lets you see all system blur effects in action in light and dark mode.
 
 
 ## Installation
