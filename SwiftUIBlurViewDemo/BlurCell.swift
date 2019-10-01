@@ -17,7 +17,7 @@ struct BlurCell: View {
             HStack {
                 ZStack {
                     Image("Image").resizable()
-                    BlurView(style)
+                    BlurView(style: style)
                     Image("Image")
                         .resizable()
                         .scaledToFit()

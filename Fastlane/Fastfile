@@ -4,15 +4,30 @@ default_platform :ios
 
 platform :ios do
 
+
+  # Unit Tests **************
+
+  desc "Run unit tests"
+  lane :test do
+    run_tests(scheme: "SwiftUIBlurView")
+  end
+
+
+  # Versioning **************
+
   desc "Create a new version"
   lane :version do |options|
     ensure_git_status_clean
     ensure_git_branch(branch: 'master')
+    test
     version = version_bump_podspec(path: "SwiftUIBlurView.podspec", version_number: options[:name])
     increment_version_number(version_number: version)
 
     git_commit(
-      path: ["SwiftUIBlurView.podspec","SwiftUIBlurViewDemo/Info.plist"],
+      path: [
+        "SwiftUIBlurView.podspec",
+        "SwiftUIBlurViewDemo/Info.plist"
+      ],
       message: "Bump to #{version}"
     )
 
