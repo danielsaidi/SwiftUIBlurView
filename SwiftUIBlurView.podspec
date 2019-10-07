@@ -3,6 +3,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftUIBlurView'
   s.version          = '0.1.1'
+  s.swift_versions   = ['5.1']
   s.summary          = 'SwiftUIBlurView lets you use UIBlurEffect in SwiftUI.'
 
   s.description      = <<-DESC
