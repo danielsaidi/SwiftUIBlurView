@@ -30,7 +30,7 @@ final class UIBlurEffectStyle_AllCasesTests: XCTestCase {
             
             .extraLight,
             .light,
-            .dark,
+            .dark
         ]
         XCTAssertEqual(result, expected)
     }

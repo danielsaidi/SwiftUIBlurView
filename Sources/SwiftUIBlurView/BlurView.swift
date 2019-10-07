@@ -52,7 +52,7 @@ private extension BlurView {
         view.insertSubview(blurView, at: 0)
         NSLayoutConstraint.activate([
             blurView.heightAnchor.constraint(equalTo: view.heightAnchor),
-            blurView.widthAnchor.constraint(equalTo: view.widthAnchor),
+            blurView.widthAnchor.constraint(equalTo: view.widthAnchor)
         ])
     }
     

@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"SwiftUIBlurView::SwiftUIBlurViewPackageTests::ProductTarget" /* SwiftUIBlurViewPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_33 /* Build configuration list for PBXAggregateTarget "SwiftUIBlurViewPackageTests" */;
+			buildConfigurationList = OBJ_39 /* Build configuration list for PBXAggregateTarget "SwiftUIBlurViewPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_36 /* PBXTargetDependency */,
+				OBJ_42 /* PBXTargetDependency */,
 			);
 			name = SwiftUIBlurViewPackageTests;
 			productName = SwiftUIBlurViewPackageTests;
@@ -21,40 +21,40 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		84102A1B232A231500BE63BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A1A232A231500BE63BC /* AppDelegate.swift */; };
-		84102A1D232A231500BE63BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A1C232A231500BE63BC /* SceneDelegate.swift */; };
-		84102A1F232A231500BE63BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A1E232A231500BE63BC /* ContentView.swift */; };
-		84102A21232A231700BE63BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84102A20232A231700BE63BC /* Assets.xcassets */; };
-		84102A24232A231700BE63BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84102A23232A231700BE63BC /* Preview Assets.xcassets */; };
-		84102A27232A231700BE63BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84102A25232A231700BE63BC /* LaunchScreen.storyboard */; };
-		84102A2D232A25DA00BE63BC /* SwiftUIBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; };
-		84102A2E232A25DA00BE63BC /* SwiftUIBlurView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		84102A35232A27F600BE63BC /* UIBlurEffectStyle+AllCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A34232A27F600BE63BC /* UIBlurEffectStyle+AllCases.swift */; };
-		84102A38232A298200BE63BC /* UIBlurEffectStyle+AllCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A36232A284100BE63BC /* UIBlurEffectStyle+AllCasesTests.swift */; };
-		84102A3A232A2B9900BE63BC /* UIBlurEffectStyle+DisplayName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A39232A2B9900BE63BC /* UIBlurEffectStyle+DisplayName.swift */; };
-		84102A3C232A2BF400BE63BC /* BlurCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84102A3B232A2BF400BE63BC /* BlurCell.swift */; };
-		OBJ_24 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlurView.swift */; };
-		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_42 /* SwiftUIBlurViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftUIBlurViewTests.swift */; };
-		OBJ_45 /* SwiftUIBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; };
+		8472259B234B00BF00283684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472259A234B00BF00283684 /* AppDelegate.swift */; };
+		8472259D234B00BF00283684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472259C234B00BF00283684 /* SceneDelegate.swift */; };
+		8472259F234B00BF00283684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472259E234B00BF00283684 /* ContentView.swift */; };
+		847225A7234B00C000283684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847225A5234B00C000283684 /* LaunchScreen.storyboard */; };
+		847225B2234B014800283684 /* BlurCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847225AC234B014700283684 /* BlurCell.swift */; };
+		847225B3234B014800283684 /* UIBlurEffectStyle+DisplayName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847225AD234B014800283684 /* UIBlurEffectStyle+DisplayName.swift */; };
+		847225BA234B01B000283684 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847225B8234B01B000283684 /* Preview Assets.xcassets */; };
+		847225BB234B01B000283684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847225B9234B01B000283684 /* Assets.xcassets */; };
+		847225BD234B01FC00283684 /* SwiftUIBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; };
+		847225BE234B01FC00283684 /* SwiftUIBlurView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		OBJ_29 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlurView.swift */; };
+		OBJ_30 /* UIBlurEffectStyle+AllCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* UIBlurEffectStyle+AllCases.swift */; };
+		OBJ_37 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_48 /* SwiftUIBlurViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftUIBlurViewTests.swift */; };
+		OBJ_49 /* UIBlurEffectStyle+AllCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */; };
+		OBJ_51 /* SwiftUIBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84102A12232A220100BE63BC /* PBXContainerItemProxy */ = {
+		84722576234AFD3500283684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftUIBlurView::SwiftUIBlurView";
 			remoteInfo = SwiftUIBlurView;
 		};
-		84102A13232A220200BE63BC /* PBXContainerItemProxy */ = {
+		84722577234AFD3700283684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftUIBlurView::SwiftUIBlurViewTests";
 			remoteInfo = SwiftUIBlurViewTests;
 		};
-		84102A2F232A25DA00BE63BC /* PBXContainerItemProxy */ = {
+		847225BF234B01FC00283684 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -64,13 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		84102A31232A25DB00BE63BC /* Embed Frameworks */ = {
+		847225C1234B01FC00283684 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				84102A2E232A25DA00BE63BC /* SwiftUIBlurView.framework in Embed Frameworks */,
+				847225BE234B01FC00283684 /* SwiftUIBlurView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,125 +78,134 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		84102A18232A231500BE63BC /* BlurView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84102A1A232A231500BE63BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84102A1C232A231500BE63BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84102A1E232A231500BE63BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		84102A20232A231700BE63BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84102A23232A231700BE63BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		84102A26232A231700BE63BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84102A28232A231700BE63BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84102A34232A27F600BE63BC /* UIBlurEffectStyle+AllCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCases.swift"; sourceTree = "<group>"; };
-		84102A36232A284100BE63BC /* UIBlurEffectStyle+AllCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCasesTests.swift"; sourceTree = "<group>"; };
-		84102A39232A2B9900BE63BC /* UIBlurEffectStyle+DisplayName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+DisplayName.swift"; sourceTree = "<group>"; };
-		84102A3B232A2BF400BE63BC /* BlurCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurCell.swift; sourceTree = "<group>"; };
-		OBJ_12 /* SwiftUIBlurViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBlurViewTests.swift; sourceTree = "<group>"; };
-		OBJ_17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84722579234AFFBE00283684 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8472257A234AFFCE00283684 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		84722598234B00BF00283684 /* SwiftUIBlurViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBlurViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472259A234B00BF00283684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8472259C234B00BF00283684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8472259E234B00BF00283684 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		847225A6234B00C000283684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847225A8234B00C000283684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847225AC234B014700283684 /* BlurCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurCell.swift; sourceTree = "<group>"; };
+		847225AD234B014800283684 /* UIBlurEffectStyle+DisplayName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+DisplayName.swift"; sourceTree = "<group>"; };
+		847225B8234B01B000283684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		847225B9234B01B000283684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		OBJ_10 /* UIBlurEffectStyle+AllCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCases.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* SwiftUIBlurViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBlurViewTests.swift; sourceTree = "<group>"; };
+		OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCasesTests.swift"; sourceTree = "<group>"; };
+		OBJ_18 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
+		OBJ_20 /* Fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fastlane; sourceTree = SOURCE_ROOT; };
+		OBJ_21 /* SwiftUIBlurView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftUIBlurView.podspec; sourceTree = "<group>"; };
+		OBJ_22 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		"SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftUIBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SwiftUIBlurView::SwiftUIBlurViewTests::Product" /* SwiftUIBlurViewTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftUIBlurViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftUIBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftUIBlurView::SwiftUIBlurViewTests::Product" /* SwiftUIBlurViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SwiftUIBlurViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84102A15232A231500BE63BC /* Frameworks */ = {
+		84722595234B00BF00283684 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84102A2D232A25DA00BE63BC /* SwiftUIBlurView.framework in Frameworks */,
+				847225BD234B01FC00283684 /* SwiftUIBlurView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_25 /* Frameworks */ = {
+		OBJ_31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_44 /* Frameworks */ = {
+		OBJ_50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_45 /* SwiftUIBlurView.framework in Frameworks */,
+				OBJ_51 /* SwiftUIBlurView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84102A19232A231500BE63BC /* SwiftUIBlurViewDemo */ = {
+		84722578234AFFAA00283684 /* Project Files */ = {
 			isa = PBXGroup;
 			children = (
-				84102A33232A275600BE63BC /* Assets */,
-				84102A32232A273E00BE63BC /* Supporting Files */,
-				84102A3B232A2BF400BE63BC /* BlurCell.swift */,
-				84102A1E232A231500BE63BC /* ContentView.swift */,
-				84102A39232A2B9900BE63BC /* UIBlurEffectStyle+DisplayName.swift */,
+				8472257A234AFFCE00283684 /* .swiftlint.yml */,
+				84722579234AFFBE00283684 /* .gitignore */,
+				OBJ_21 /* SwiftUIBlurView.podspec */,
+				OBJ_22 /* LICENSE */,
+				OBJ_23 /* README.md */,
+			);
+			name = "Project Files";
+			sourceTree = "<group>";
+		};
+		84722599234B00BF00283684 /* SwiftUIBlurViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				847225B9234B01B000283684 /* Assets.xcassets */,
+				847225B7234B01B000283684 /* Preview Content */,
+				847225B6234B015100283684 /* Supporting Files */,
+				847225AC234B014700283684 /* BlurCell.swift */,
+				8472259E234B00BF00283684 /* ContentView.swift */,
+				847225AD234B014800283684 /* UIBlurEffectStyle+DisplayName.swift */,
 			);
 			path = SwiftUIBlurViewDemo;
 			sourceTree = "<group>";
 		};
-		84102A22232A231700BE63BC /* Preview Content */ = {
+		847225B6234B015100283684 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84102A23232A231700BE63BC /* Preview Assets.xcassets */,
+				8472259A234B00BF00283684 /* AppDelegate.swift */,
+				847225A8234B00C000283684 /* Info.plist */,
+				847225A5234B00C000283684 /* LaunchScreen.storyboard */,
+				8472259C234B00BF00283684 /* SceneDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847225B7234B01B000283684 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				847225B8234B01B000283684 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		84102A2C232A25DA00BE63BC /* Frameworks */ = {
+		847225BC234B01FC00283684 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		84102A32232A273E00BE63BC /* Supporting Files */ = {
+		OBJ_11 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				84102A1A232A231500BE63BC /* AppDelegate.swift */,
-				84102A28232A231700BE63BC /* Info.plist */,
-				84102A25232A231700BE63BC /* LaunchScreen.storyboard */,
-				84102A1C232A231500BE63BC /* SceneDelegate.swift */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		84102A33232A275600BE63BC /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				84102A20232A231700BE63BC /* Assets.xcassets */,
-				84102A22232A231700BE63BC /* Preview Content */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		OBJ_10 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_11 /* SwiftUIBlurViewTests */,
+				OBJ_12 /* SwiftUIBlurViewTests */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_11 /* SwiftUIBlurViewTests */ = {
+		OBJ_12 /* SwiftUIBlurViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* SwiftUIBlurViewTests.swift */,
-				84102A36232A284100BE63BC /* UIBlurEffectStyle+AllCasesTests.swift */,
+				OBJ_13 /* SwiftUIBlurViewTests.swift */,
+				OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */,
 			);
 			name = SwiftUIBlurViewTests;
 			path = Tests/SwiftUIBlurViewTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_14 /* Products */ = {
+		OBJ_15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"SwiftUIBlurView::SwiftUIBlurViewTests::Product" /* SwiftUIBlurViewTests.xctest */,
 				"SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */,
-				84102A18232A231500BE63BC /* BlurView.app */,
+				"SwiftUIBlurView::SwiftUIBlurViewTests::Product" /* SwiftUIBlurViewTests.xctest */,
+				84722598234B00BF00283684 /* SwiftUIBlurViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -206,12 +215,13 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
-				84102A19232A231500BE63BC /* SwiftUIBlurViewDemo */,
-				OBJ_14 /* Products */,
-				OBJ_17 /* LICENSE */,
-				OBJ_18 /* README.md */,
-				84102A2C232A25DA00BE63BC /* Frameworks */,
+				OBJ_11 /* Tests */,
+				84722599234B00BF00283684 /* SwiftUIBlurViewDemo */,
+				OBJ_15 /* Products */,
+				OBJ_18 /* Resources */,
+				OBJ_20 /* Fastlane */,
+				84722578234AFFAA00283684 /* Project Files */,
+				847225BC234B01FC00283684 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_9 /* BlurView.swift */,
-				84102A34232A27F600BE63BC /* UIBlurEffectStyle+AllCases.swift */,
+				OBJ_10 /* UIBlurEffectStyle+AllCases.swift */,
 			);
 			name = SwiftUIBlurView;
 			path = Sources/SwiftUIBlurView;
@@ -236,30 +246,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84102A17232A231500BE63BC /* SwiftUIBlurViewDemo */ = {
+		84722597234B00BF00283684 /* SwiftUIBlurViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84102A2B232A231700BE63BC /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewDemo" */;
+			buildConfigurationList = 847225AB234B00C000283684 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewDemo" */;
 			buildPhases = (
-				84102A14232A231500BE63BC /* Sources */,
-				84102A15232A231500BE63BC /* Frameworks */,
-				84102A16232A231500BE63BC /* Resources */,
-				84102A31232A25DB00BE63BC /* Embed Frameworks */,
+				84722594234B00BF00283684 /* Sources */,
+				84722595234B00BF00283684 /* Frameworks */,
+				84722596234B00BF00283684 /* Resources */,
+				847225C1234B01FC00283684 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84102A30232A25DA00BE63BC /* PBXTargetDependency */,
+				847225C0234B01FC00283684 /* PBXTargetDependency */,
 			);
 			name = SwiftUIBlurViewDemo;
 			productName = SwiftUIBlurViewDemo;
-			productReference = 84102A18232A231500BE63BC /* BlurView.app */;
+			productReference = 84722598234B00BF00283684 /* SwiftUIBlurViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		"SwiftUIBlurView::SwiftPMPackageDescription" /* SwiftUIBlurViewPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewPackageDescription" */;
+			buildConfigurationList = OBJ_33 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewPackageDescription" */;
 			buildPhases = (
-				OBJ_30 /* Sources */,
+				OBJ_36 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -271,10 +281,11 @@
 		};
 		"SwiftUIBlurView::SwiftUIBlurView" /* SwiftUIBlurView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_20 /* Build configuration list for PBXNativeTarget "SwiftUIBlurView" */;
+			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "SwiftUIBlurView" */;
 			buildPhases = (
-				OBJ_23 /* Sources */,
-				OBJ_25 /* Frameworks */,
+				8472257B234AFFE200283684 /* SwiftUI */,
+				OBJ_28 /* Sources */,
+				OBJ_31 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,15 +298,15 @@
 		};
 		"SwiftUIBlurView::SwiftUIBlurViewTests" /* SwiftUIBlurViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_38 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewTests" */;
+			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewTests" */;
 			buildPhases = (
-				OBJ_41 /* Sources */,
-				OBJ_44 /* Frameworks */,
+				OBJ_47 /* Sources */,
+				OBJ_50 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_46 /* PBXTargetDependency */,
+				OBJ_52 /* PBXTargetDependency */,
 			);
 			name = SwiftUIBlurViewTests;
 			productName = SwiftUIBlurViewTests;
@@ -312,7 +323,7 @@
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 9999;
 				TargetAttributes = {
-					84102A17232A231500BE63BC = {
+					84722597234B00BF00283684 = {
 						CreatedOnToolsVersion = 11.0;
 						DevelopmentTeam = PMEDFW438U;
 						ProvisioningStyle = Automatic;
@@ -328,7 +339,7 @@
 				Base,
 			);
 			mainGroup = OBJ_5;
-			productRefGroup = OBJ_14 /* Products */;
+			productRefGroup = OBJ_15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -336,88 +347,109 @@
 				"SwiftUIBlurView::SwiftPMPackageDescription" /* SwiftUIBlurViewPackageDescription */,
 				"SwiftUIBlurView::SwiftUIBlurViewPackageTests::ProductTarget" /* SwiftUIBlurViewPackageTests */,
 				"SwiftUIBlurView::SwiftUIBlurViewTests" /* SwiftUIBlurViewTests */,
-				84102A17232A231500BE63BC /* SwiftUIBlurViewDemo */,
+				84722597234B00BF00283684 /* SwiftUIBlurViewDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84102A16232A231500BE63BC /* Resources */ = {
+		84722596234B00BF00283684 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84102A27232A231700BE63BC /* LaunchScreen.storyboard in Resources */,
-				84102A24232A231700BE63BC /* Preview Assets.xcassets in Resources */,
-				84102A21232A231700BE63BC /* Assets.xcassets in Resources */,
+				847225BA234B01B000283684 /* Preview Assets.xcassets in Resources */,
+				847225BB234B01B000283684 /* Assets.xcassets in Resources */,
+				847225A7234B00C000283684 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8472257B234AFFE200283684 /* SwiftUI */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftUI;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		84102A14232A231500BE63BC /* Sources */ = {
+		84722594234B00BF00283684 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84102A1B232A231500BE63BC /* AppDelegate.swift in Sources */,
-				84102A3A232A2B9900BE63BC /* UIBlurEffectStyle+DisplayName.swift in Sources */,
-				84102A1D232A231500BE63BC /* SceneDelegate.swift in Sources */,
-				84102A3C232A2BF400BE63BC /* BlurCell.swift in Sources */,
-				84102A1F232A231500BE63BC /* ContentView.swift in Sources */,
+				8472259B234B00BF00283684 /* AppDelegate.swift in Sources */,
+				847225B3234B014800283684 /* UIBlurEffectStyle+DisplayName.swift in Sources */,
+				8472259D234B00BF00283684 /* SceneDelegate.swift in Sources */,
+				847225B2234B014800283684 /* BlurCell.swift in Sources */,
+				8472259F234B00BF00283684 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_23 /* Sources */ = {
+		OBJ_28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				84102A35232A27F600BE63BC /* UIBlurEffectStyle+AllCases.swift in Sources */,
-				OBJ_24 /* BlurView.swift in Sources */,
+				OBJ_29 /* BlurView.swift in Sources */,
+				OBJ_30 /* UIBlurEffectStyle+AllCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_30 /* Sources */ = {
+		OBJ_36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_31 /* Package.swift in Sources */,
+				OBJ_37 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_41 /* Sources */ = {
+		OBJ_47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				84102A38232A298200BE63BC /* UIBlurEffectStyle+AllCasesTests.swift in Sources */,
-				OBJ_42 /* SwiftUIBlurViewTests.swift in Sources */,
+				OBJ_48 /* SwiftUIBlurViewTests.swift in Sources */,
+				OBJ_49 /* UIBlurEffectStyle+AllCasesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84102A30232A25DA00BE63BC /* PBXTargetDependency */ = {
+		847225C0234B01FC00283684 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftUIBlurView::SwiftUIBlurView" /* SwiftUIBlurView */;
-			targetProxy = 84102A2F232A25DA00BE63BC /* PBXContainerItemProxy */;
+			targetProxy = 847225BF234B01FC00283684 /* PBXContainerItemProxy */;
 		};
-		OBJ_36 /* PBXTargetDependency */ = {
+		OBJ_42 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftUIBlurView::SwiftUIBlurViewTests" /* SwiftUIBlurViewTests */;
-			targetProxy = 84102A13232A220200BE63BC /* PBXContainerItemProxy */;
+			targetProxy = 84722577234AFD3700283684 /* PBXContainerItemProxy */;
 		};
-		OBJ_46 /* PBXTargetDependency */ = {
+		OBJ_52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftUIBlurView::SwiftUIBlurView" /* SwiftUIBlurView */;
-			targetProxy = 84102A12232A220100BE63BC /* PBXContainerItemProxy */;
+			targetProxy = 84722576234AFD3500283684 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84102A25232A231700BE63BC /* LaunchScreen.storyboard */ = {
+		847225A5234B00C000283684 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84102A26232A231700BE63BC /* Base */,
+				847225A6234B00C000283684 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -425,7 +457,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84102A29232A231700BE63BC /* Debug */ = {
+		847225A9234B00C000283684 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,7 +490,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBlurViewDemo/Assets/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBlurViewDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = PMEDFW438U;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -477,20 +509,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = SwiftUIBlurViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.SwiftUIBlurViewDemo;
-				PRODUCT_NAME = BlurView;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		84102A2A232A231700BE63BC /* Release */ = {
+		847225AA234B00C000283684 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -524,7 +554,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBlurViewDemo/Assets/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBlurViewDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = PMEDFW438U;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_PREVIEWS = YES;
@@ -538,20 +568,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = SwiftUIBlurViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielsaidi.SwiftUIBlurViewDemo;
-				PRODUCT_NAME = BlurView;
-				SDKROOT = iphoneos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		OBJ_21 /* Debug */ = {
+		OBJ_26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -561,9 +589,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftUIBlurView.xcodeproj/SwiftUIBlurView_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -574,12 +600,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SwiftUIBlurView;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		OBJ_22 /* Release */ = {
+		OBJ_27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -589,9 +613,7 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftUIBlurView.xcodeproj/SwiftUIBlurView_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -602,26 +624,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SwiftUIBlurView;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		OBJ_28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-GM.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		OBJ_29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-GM.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -644,7 +646,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -655,39 +657,20 @@
 		OBJ_34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		OBJ_35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.1";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
-		};
-		OBJ_39 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftUIBlurView.xcodeproj/SwiftUIBlurViewTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 5.0;
-				TARGET_NAME = SwiftUIBlurViewTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
 		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -705,7 +688,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -713,7 +696,19 @@
 			};
 			name = Release;
 		};
-		OBJ_40 /* Release */ = {
+		OBJ_40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -724,28 +719,45 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = SwiftUIBlurView.xcodeproj/SwiftUIBlurViewTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 5.0;
 				TARGET_NAME = SwiftUIBlurViewTests;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftUIBlurView.xcodeproj/SwiftUIBlurViewTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SwiftUIBlurViewTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84102A2B232A231700BE63BC /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewDemo" */ = {
+		847225AB234B00C000283684 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84102A29232A231700BE63BC /* Debug */,
-				84102A2A232A231700BE63BC /* Release */,
+				847225A9234B00C000283684 /* Debug */,
+				847225AA234B00C000283684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -759,25 +771,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_20 /* Build configuration list for PBXNativeTarget "SwiftUIBlurView" */ = {
+		OBJ_25 /* Build configuration list for PBXNativeTarget "SwiftUIBlurView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_21 /* Debug */,
-				OBJ_22 /* Release */,
+				OBJ_26 /* Debug */,
+				OBJ_27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_27 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_28 /* Debug */,
-				OBJ_29 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_33 /* Build configuration list for PBXAggregateTarget "SwiftUIBlurViewPackageTests" */ = {
+		OBJ_33 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_34 /* Debug */,
@@ -786,11 +789,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_38 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewTests" */ = {
+		OBJ_39 /* Build configuration list for PBXAggregateTarget "SwiftUIBlurViewPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_39 /* Debug */,
-				OBJ_40 /* Release */,
+				OBJ_40 /* Debug */,
+				OBJ_41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_44 /* Build configuration list for PBXNativeTarget "SwiftUIBlurViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_45 /* Debug */,
+				OBJ_46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

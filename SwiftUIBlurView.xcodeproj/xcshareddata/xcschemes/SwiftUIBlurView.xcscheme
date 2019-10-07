@@ -28,8 +28,8 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84102A17232A231500BE63BC"
-               BuildableName = "BlurView.app"
+               BlueprintIdentifier = "84722597234B00BF00283684"
+               BuildableName = "SwiftUIBlurViewDemo.app"
                BlueprintName = "SwiftUIBlurViewDemo"
                ReferencedContainer = "container:SwiftUIBlurView.xcodeproj">
             </BuildableReference>
@@ -68,8 +68,8 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84102A17232A231500BE63BC"
-            BuildableName = "BlurView.app"
+            BlueprintIdentifier = "84722597234B00BF00283684"
+            BuildableName = "SwiftUIBlurViewDemo.app"
             BlueprintName = "SwiftUIBlurViewDemo"
             ReferencedContainer = "container:SwiftUIBlurView.xcodeproj">
          </BuildableReference>

@@ -37,7 +37,7 @@ public extension UIBlurEffect.Style {
             
             .extraLight,
             .light,
-            .dark,
+            .dark
         ]
     }
 }

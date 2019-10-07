@@ -43,45 +43,45 @@ The demo application embedded in this project lets you see all system blur effec
 ### Swift Package Manager
 
 The easiest way to add SwiftUIBlurView to your project is to use Swift Package Manager:
-```swift
-.package(url: "git@github.com:danielsaidi/SwiftUIBlurView.git" ...)
+```
+https://github.com/danielsaidi/SwiftUIBlurView.git
 ```
 
 ### CocoaPods
 
-If you use [CocoaPods](CocoaPods), add this to your `Podfile` and run `pod install`:
-```ruby
+```
 pod "SwiftUIBlurView"
 ```
 
 ### <a name="carthage"></a>Carthage
 
-If you use [Carthage](Carthage), add this to your `Cartfile` and run `carthage update --platform iOS`:
-```ruby
+```
 github "danielsaidi/SwiftUIBlurView"
 ```
 
 
 ## Demo App
 
-This project contains a demo app that shows all available blur styles in dark and light mode.
-
-To run the demo app, just open and run the `SwiftUIBlurView` project. 
+This project contains a demo app that shows all available blur styles in dark and light mode. To run the demo app, open and run the `SwiftUIBlurView.xcodeproj` project. 
 
 
 ## Contact me
 
-I hope you like this library. Feel free to reach out if you have questions or if you want to contribute in any way:
+Feel free to reach out if you have questions or if you want to contribute in any way:
 
-* E-mail: [daniel.saidi@gmail.com](mailto:daniel.saidi@gmail.com)
-* Twitter: [@danielsaidi](http://www.twitter.com/danielsaidi)
-* Web site: [danielsaidi.com](http://www.danielsaidi.com)
+* E-mail: [daniel.saidi@gmail.com][Email]
+* Twitter: [@danielsaidi][Twitter]
+* Web site: [danielsaidi.com][Website]
 
 
 ## License
 
 SwiftUIBlurView is available under the MIT license. See LICENSE file for more info.
 
+
+[Email]: mailto:daniel.saidi@gmail.com
+[Twitter]: http://www.twitter.com/danielsaidi
+[Website]: http://www.danielsaidi.com
 
 [Carthage]: https://github.com/Carthage
 [CocoaPods]: http://cocoapods.org
