@@ -17,7 +17,7 @@
 
 ## <a name="about"></a>About SwiftUIBlurView
 
-SwiftUIBlurView lets you use `UIBlurEffect` in SwiftUI. This gives you access to all system blur effects, like `.regular`, `.prominent`, `.systemMaterial` and many more.
+SwiftUIBlurView lets you use `UIBlurEffect` in SwiftUI. This gives you access to system blur effects like `.regular`, `.prominent`, `.systemMaterial` and many more.
 
 To blur any SwiftUI view, just place a `BlurView` above it:
 

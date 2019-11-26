@@ -1,3 +1,11 @@
+//
+//  UIBlurEffectStyle+AllCasesTests.swift
+//  SwiftUIBlurViewTests
+//
+//  Created by Daniel Saidi on 2019-08-30.
+//  Copyright © 2019 Daniel Saidi. All rights reserved.
+//
+
 import XCTest
 import SwiftUIBlurView
 import UIKit

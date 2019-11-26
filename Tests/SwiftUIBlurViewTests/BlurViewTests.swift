@@ -1,3 +1,11 @@
+//
+//  BlurViewTests.swift
+//  SwiftUIBlurViewTests
+//
+//  Created by Daniel Saidi on 2019-08-30.
+//  Copyright © 2019 Daniel Saidi. All rights reserved.
+//
+
 import XCTest
 @testable import SwiftUIBlurView
 

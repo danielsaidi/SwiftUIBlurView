@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		841942BA238DA35000264D51 /* View+SystemBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841942B9238DA35000264D51 /* View+SystemBlur.swift */; };
 		8472259B234B00BF00283684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472259A234B00BF00283684 /* AppDelegate.swift */; };
 		8472259D234B00BF00283684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472259C234B00BF00283684 /* SceneDelegate.swift */; };
 		8472259F234B00BF00283684 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472259E234B00BF00283684 /* ContentView.swift */; };
@@ -34,7 +35,7 @@
 		OBJ_29 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BlurView.swift */; };
 		OBJ_30 /* UIBlurEffectStyle+AllCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* UIBlurEffectStyle+AllCases.swift */; };
 		OBJ_37 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_48 /* SwiftUIBlurViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftUIBlurViewTests.swift */; };
+		OBJ_48 /* BlurViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BlurViewTests.swift */; };
 		OBJ_49 /* UIBlurEffectStyle+AllCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */; };
 		OBJ_51 /* SwiftUIBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftUIBlurView::SwiftUIBlurView::Product" /* SwiftUIBlurView.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		841942B9238DA35000264D51 /* View+SystemBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+SystemBlur.swift"; sourceTree = "<group>"; };
 		84722579234AFFBE00283684 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		8472257A234AFFCE00283684 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		84722598234B00BF00283684 /* SwiftUIBlurViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBlurViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +93,7 @@
 		847225B8234B01B000283684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		847225B9234B01B000283684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		OBJ_10 /* UIBlurEffectStyle+AllCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCases.swift"; sourceTree = "<group>"; };
-		OBJ_13 /* SwiftUIBlurViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBlurViewTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* BlurViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCasesTests.swift"; sourceTree = "<group>"; };
 		OBJ_18 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = SOURCE_ROOT; };
 		OBJ_20 /* Fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fastlane; sourceTree = SOURCE_ROOT; };
@@ -193,7 +195,7 @@
 		OBJ_12 /* SwiftUIBlurViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* SwiftUIBlurViewTests.swift */,
+				OBJ_13 /* BlurViewTests.swift */,
 				OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */,
 			);
 			name = SwiftUIBlurViewTests;
@@ -238,6 +240,7 @@
 			children = (
 				OBJ_9 /* BlurView.swift */,
 				OBJ_10 /* UIBlurEffectStyle+AllCases.swift */,
+				841942B9238DA35000264D51 /* View+SystemBlur.swift */,
 			);
 			name = SwiftUIBlurView;
 			path = Sources/SwiftUIBlurView;
@@ -405,6 +408,7 @@
 			files = (
 				OBJ_29 /* BlurView.swift in Sources */,
 				OBJ_30 /* UIBlurEffectStyle+AllCases.swift in Sources */,
+				841942BA238DA35000264D51 /* View+SystemBlur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_48 /* SwiftUIBlurViewTests.swift in Sources */,
+				OBJ_48 /* BlurViewTests.swift in Sources */,
 				OBJ_49 /* UIBlurEffectStyle+AllCasesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

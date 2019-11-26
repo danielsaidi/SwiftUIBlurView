@@ -14,19 +14,7 @@ struct BlurCell: View {
     
     var body: some View {
         VStack {
-            HStack {
-                ZStack {
-                    Image("Image").resizable()
-                    BlurView(style: style)
-                    Image("Image")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(5).padding(80)
-                }
-            }
-            .frame(height: 300)
-            .padding()
-            
+            Image("Image").resizable().systemBlur(style: style)
             Text(style.displayName)
                 .padding()
         }

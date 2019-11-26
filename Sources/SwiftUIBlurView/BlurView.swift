@@ -10,9 +10,8 @@ import SwiftUI
 import UIKit
 
 /**
- This view wraps a UIKit into a SwiftUI view and applies any
- `UIBlurEffect.Style` to it. You can then place it above any
- SwiftUI views that you want to blur.
+ This view wraps a `UIView` and applies a blur effect to it.
+ You can then place it above the view that you want to blur.
  */
 public struct BlurView: UIViewRepresentable {
     
@@ -22,11 +21,11 @@ public struct BlurView: UIViewRepresentable {
     
     private let style: UIBlurEffect.Style
     
-    public func makeUIView(context: UIViewRepresentableContext<BlurView>) -> UIView {
-        createView()
-    }
+    public typealias Context = UIViewRepresentableContext<BlurView>
     
-    public func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<BlurView>) {}
+    public func makeUIView(context: Context) -> UIView { createView() }
+    
+    public func updateUIView(_ uiView: UIView, context: Context) {}
 }
 
 
@@ -36,7 +35,7 @@ extension BlurView {
     
     func createView() -> UIView {
         let view = UIView(frame: .zero)
-        let blurView = getBlurView()
+        let blurView = createBlurView()
         add(blurView, to: view)
         return view
     }
@@ -56,7 +55,7 @@ private extension BlurView {
         ])
     }
     
-    func getBlurView() -> UIVisualEffectView {
+    func createBlurView() -> UIVisualEffectView {
         let effect = UIBlurEffect(style: style)
         let view = UIVisualEffectView(effect: effect)
         view.translatesAutoresizingMaskIntoConstraints = false
