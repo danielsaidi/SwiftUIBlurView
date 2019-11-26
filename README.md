@@ -17,15 +17,14 @@
 
 ## <a name="about"></a>About SwiftUIBlurView
 
-SwiftUIBlurView lets you use `UIBlurEffect` in SwiftUI. This gives you access to system blur effects like `.regular`, `.prominent`, `.systemMaterial` and many more.
+SwiftUIBlurView lets you use `UIBlurEffect` in SwiftUI. This gives you access to system blur effects like `.regular`, `.prominent`, `.systemMaterial`.
 
-To blur any SwiftUI view, just place a `BlurView` above it:
+To blur any SwiftUI view, just use the `systemBlur` modifier:
 
 ```swift
-ZStack {
-    Image("photo").frame(width: 200, height: 200)   // This is blurred
-    BlurView(.prominent)
-    Image("photo").frame(width: 100, height: 100)   // This is not blurred
+Image("photo")
+    .frame(width: 200, height: 200)
+    .systemBlur(style: .prominent)
 }
 ```
 
@@ -35,14 +34,16 @@ The result looks like this:
     <img src ="Resources/Demo.jpg" height=300 />
 </p>
 
-The demo application embedded in this project lets you see all system blur effects in action in light and dark mode.
+
+## Demo App
+
+This project contains a demo app that shows all available system blur styles. To run the demo app, just open and run the `SwiftUIBlurView.xcodeproj` project.
 
 
 ## Installation
 
 ### Swift Package Manager
 
-The easiest way to add SwiftUIBlurView to your project is to use Swift Package Manager:
 ```
 https://github.com/danielsaidi/SwiftUIBlurView.git
 ```
@@ -57,12 +58,7 @@ pod "SwiftUIBlurView"
 
 ```
 github "danielsaidi/SwiftUIBlurView"
-```
-
-
-## Demo App
-
-This project contains a demo app that shows all available blur styles in dark and light mode. To run the demo app, open and run the `SwiftUIBlurView.xcodeproj` project. 
+``` 
 
 
 ## Contact me

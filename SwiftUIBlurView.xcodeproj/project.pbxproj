@@ -92,6 +92,7 @@
 		847225AD234B014800283684 /* UIBlurEffectStyle+DisplayName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+DisplayName.swift"; sourceTree = "<group>"; };
 		847225B8234B01B000283684 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		847225B9234B01B000283684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849A61A7238DCCC6001F4D35 /* Release Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Release Notes.md"; sourceTree = "<group>"; };
 		OBJ_10 /* UIBlurEffectStyle+AllCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCases.swift"; sourceTree = "<group>"; };
 		OBJ_13 /* BlurViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewTests.swift; sourceTree = "<group>"; };
 		OBJ_14 /* UIBlurEffectStyle+AllCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBlurEffectStyle+AllCasesTests.swift"; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 				OBJ_21 /* SwiftUIBlurView.podspec */,
 				OBJ_22 /* LICENSE */,
 				OBJ_23 /* README.md */,
+				849A61A7238DCCC6001F4D35 /* Release Notes.md */,
 			);
 			name = "Project Files";
 			sourceTree = "<group>";
