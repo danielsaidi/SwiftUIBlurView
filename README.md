@@ -54,7 +54,7 @@ https://github.com/danielsaidi/SwiftUIBlurView.git
 pod "SwiftUIBlurView"
 ```
 
-### <a name="carthage"></a>Carthage
+### Carthage
 
 ```
 github "danielsaidi/SwiftUIBlurView"
@@ -72,14 +72,12 @@ Feel free to reach out if you have questions or if you want to contribute in any
 
 ## License
 
-SwiftUIBlurView is available under the MIT license. See LICENSE file for more info.
+SwiftUIBlurView is available under the MIT license. See [LICENSE][License] file for more info.
 
 
 [Email]: mailto:daniel.saidi@gmail.com
 [Twitter]: http://www.twitter.com/danielsaidi
 [Website]: http://www.danielsaidi.com
 
-[Carthage]: https://github.com/Carthage
-[CocoaPods]: http://cocoapods.org
 [GitHub]: https://github.com/danielsaidi/SwiftUIBlurView
 [License]: https://github.com/danielsaidi/SwiftUIBlurView/blob/master/LICENSE

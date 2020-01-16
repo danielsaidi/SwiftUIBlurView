@@ -13,19 +13,17 @@ struct BlurCell: View {
     let style: UIBlurEffect.Style
     
     var body: some View {
-        Image("Image")
-            .resizable()
-            .systemBlur(style: style)
-            .frame(height: 200)
-            .cornerRadius(10)
-            .overlay(
-                Text(style.displayName)
-                    .padding()
-                    .background(Color.white)
-                    .cornerRadius(4)
-                    .shadow(radius: 4)
-                )
-            .padding([.top, .leading, .trailing])
+        VStack {
+            Text(style.displayName)
+                .font(.callout)
+            
+            Image("Image")
+                .resizable()
+                .systemBlur(style: style)
+                .frame(height: 200)
+                .cornerRadius(10)
+                .padding([.leading, .trailing])
+        }
     }
 }
 

@@ -15,8 +15,10 @@ struct ContentView: View {
             ScrollView {
                 ForEach(UIBlurEffect.Style.allCases, id: \.displayName) { style in
                     BlurCell(style: style)
+                        .padding(.top)
                 }
-            }.navigationBarTitle("SwiftUIBlurView")
+            }
+            .navigationBarTitle("SwiftUIBlurView")
         }
     }
 }
@@ -24,5 +26,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environment(\.colorScheme, .dark)
     }
 }
